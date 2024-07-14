@@ -19,7 +19,7 @@ export default function Header() {
                     {navItems.map((item, index) => (
                         <li key={index} className='nav-item'>
                             <a
-                                className={item.path === '/' && 'active'}
+                                className={item.path === '/' ? 'active' : ''}
                                 href={item.path}
                             >
                                 {item.name}

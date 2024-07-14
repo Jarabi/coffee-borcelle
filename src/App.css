@@ -4,11 +4,8 @@
     --tertiary-color: #655546;
     --white-color: #fff;
     --black-color: #000;
+    --dark-color: #1e1e1e;
     --green-accent-color: #0a424f;
-    --septenary-color: #f0f0f0;
-    --octonary-color: #f0f0f0;
-    --nonary-color: #f0f0f0;
-    --denary-color: #f0f0f0;
 }
 
 * {
@@ -19,21 +16,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--dark-color);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Header */
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     background-color: transparent;
-    padding: 10px 0;
+    gap: 100px;
+    padding-left: 4em;
+    position: fixed;
+    top: 0;
 }
 
 header .header-logo {
@@ -49,9 +51,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
-    /* padding: 8px; */
     list-style: none;
     background-color: var(--tertiary-color);
     border-radius: 5px;
@@ -70,9 +70,42 @@ header nav ul li a {
     color: var(--white-color);
     padding: 8px 12px;
     border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 header nav ul li a.active {
     background-color: var(--white-color);
     color: var(--tertiary-color);;
+}
+
+header nav ul li a:hover {
+    background-color: var(--white-color);
+    color: var(--tertiary-color);
+}
+
+/* Hero section */
+.hero {
+    width: 100%;
+    height: 400px;
+    background-color: var(--primary-color);
+    background-image: url('./assets/hero-image.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 10em;
+    color: var(--white-color);
+}
+
+.hero h1 {
+    font-family: 'pompiere', sans-serif;
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+.hero p {
+    font-family: 'Galada', cursive;
+    font-size: 1.3rem;
+    font-weight: normal;
 }
