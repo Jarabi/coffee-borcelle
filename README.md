@@ -8,9 +8,9 @@ Welcome to **Coffee Borcelle**! This project aims to create a comprehensive and 
 1. [Features](#features)
 1. [Installation](#installation)
 1. [Usage](#usage)
-1. [Contributing]()
-1. [License]()
-1. [Contact]()
+1. [Contributing](#contributing)
+1. [License](#license)
+1. [Contact](#contact)
 
 ### Project Overview
 
@@ -92,7 +92,7 @@ Open a pull request on the original repository with a description of your change
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE]() file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
 ### Contact
 
