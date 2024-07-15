@@ -279,3 +279,155 @@ header nav ul li a:hover {
     font-weight: 500;
     color: var(--green-accent-color);
 }
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 40px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+}
+
+footer .footer-content .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+footer .footer-content .contact-us h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer .footer-content .contact-us p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,.66);
+    margin-top: -10px;
+}
+
+footer .footer-content .contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer .footer-content .contact-us form input {
+    width: 200px;
+}
+footer .footer-content .contact-us form input,
+footer .footer-content .contact-us form textarea {
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+    padding: 8px;
+    border: none;
+}
+
+footer .footer-content .contact-us form input:focus,
+footer .footer-content .contact-us form textarea:focus {
+    outline: none;
+}
+
+footer .footer-content .contact-us form button {
+    align-self: start;
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+    color: var(--black-color);
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+footer .footer-content .contact-us form button:hover {
+    background-color: var(--white-color);
+}
+
+footer .footer-content .sitemap {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+footer .footer-content .sitemap h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer .footer-content .sitemap p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,.66);
+}
+
+footer .footer-content .sitemap ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+footer .footer-content .sitemap ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+
+footer .footer-content .sitemap ul li:before {
+    content: '-';
+    margin-right: 5px;
+}
+
+footer .footer-content .logo-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+footer .footer-content .logo-contacts .footer-logo {
+    width: 140px;
+    height: 140px;
+}
+
+footer .footer-content .logo-contacts p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: rgba(255,255,255,.66);
+}
+
+
+
+footer .copyright {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: var(--black-color);
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--secondary-color);
+}

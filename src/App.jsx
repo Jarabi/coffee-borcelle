@@ -1,8 +1,10 @@
-import './App.css'
-import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from './components/About';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
+import './App.css';
+import 'boxicons/css/boxicons.min.css';
 
 function App() {
     return (
@@ -11,8 +13,9 @@ function App() {
             <Hero />
             <About />
             <Reviews />
+            <Footer />
         </div>
     );
 }
 
-export default App
+export default App;
